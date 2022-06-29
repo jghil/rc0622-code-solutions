@@ -1,0 +1,14 @@
+button:hover {
+  background-color: black;
+  color: yellowgreen;
+  cursor: pointer;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+.striped:nth-child(2n+1) {
+  background-color: gainsboro;
+}
