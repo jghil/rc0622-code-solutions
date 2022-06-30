@@ -3,6 +3,9 @@
 }
 
 h2 {
+  font-family: AtlasGrotesk, sans-serif, Georgia;
+  font-weight: bold;
+  font-size: 20px;
   text-align: center;
   letter-spacing: 5px;
   color: rgb(248 100 100);
@@ -13,9 +16,9 @@ fieldset {
 }
 
 label {
+  font-family: AtlasGrotesk, sans-serif, Georgia;
   font-weight: bold;
   font-size: 11px;
-  letter-spacing: 1px;
   padding-left: 10px;
 }
 
@@ -36,7 +39,7 @@ label,
 #name,
 #where,
 #hiring {
-  padding: 5px 10px;
+  padding: 10px;
   border-radius: 8px;
   font-size: 15px;
   margin-bottom: 25px;
@@ -57,7 +60,7 @@ button {
   border-style: none;
   color: white;
   padding: 8px 25px;
-  margin-left: 60%;
+  margin-left: 65%;
 }
 
 button:hover {
