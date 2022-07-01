@@ -39,6 +39,7 @@
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
   width: 300px;
   height: 300px;
+  position: absolute;
 
   /* your code here */
 }
