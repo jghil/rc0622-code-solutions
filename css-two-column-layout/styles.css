@@ -6,18 +6,13 @@
 .container {
   display: flex;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: auto;
   flex-wrap: wrap;
-  height: 1000px;
+  min-height: 800px;
 }
 
 .row {
   display: flex;
-}
-
-.article {
-  display: flex;
-  justify-content: space-between;
 }
 
 .column-full {
@@ -50,8 +45,16 @@ p {
 }
 
 .column-half {
-  margin-top: 50px;
-  flex-basis: 80%;
+  display: flex;
+  padding: 50px;
+}
+
+.column-quarter {
+  width: 25%;
+}
+
+.column-three-quarters {
+  width: 75%;
 }
 
 img {
