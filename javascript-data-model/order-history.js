@@ -44,3 +44,4 @@ var orderHistory = [
     cost: ['$' + 94.95, '$' + 33.99]
   }
 ];
+console.log(orderHistory);
