@@ -6,6 +6,6 @@ $taskList.addEventListener('click', function (event) {
   if (event.target && event.target.nodeName === 'BUTTON') {
     var $closestElement = event.target.closest('.task-list-item');
     console.log($closestElement);
-    $closestElement.remove($closestElement);
+    $closestElement.remove();
   }
 });
