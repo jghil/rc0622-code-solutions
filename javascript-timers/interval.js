@@ -1,4 +1,4 @@
-setInterval(function () {
+var interval = setInterval(function () {
   var $countdown = document.querySelector('.countdown-display');
   if ($countdown.textContent === '4') {
     $countdown.textContent = '3';
@@ -8,5 +8,6 @@ setInterval(function () {
     $countdown.textContent = '1';
   } else if ($countdown.textContent === '1') {
     $countdown.textContent = '~Earth Beeeelooowww Us~';
+    clearInterval(interval);
   }
 }, 1000);
