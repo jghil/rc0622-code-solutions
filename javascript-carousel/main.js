@@ -7,7 +7,7 @@ var $iconsContainer = document.querySelector('.icons-container');
 var images = ['images/001.png', 'images/004.png', 'images/007.png', 'images/025.png', 'images/039.png'];
 var start = 0;
 
-var intervalID = setInterval(repeat, 1000);
+var intervalID = setInterval(repeat, 3000);
 
 function repeat() {
   start++;
@@ -17,7 +17,7 @@ function repeat() {
   $currentImage.setAttribute('src', images[start]);
   iconChange();
   clearInterval(intervalID);
-  intervalID = setInterval(repeat, 1000);
+  intervalID = setInterval(repeat, 3000);
 }
 
 $iconsContainer.addEventListener('click', function (e) {
@@ -31,7 +31,7 @@ $iconsContainer.addEventListener('click', function (e) {
         document.querySelector('img').setAttribute('src', images[i]);
       }
     }
-  } intervalID = setInterval(repeat, 1000);
+  } intervalID = setInterval(repeat, 3000);
 });
 
 $rightIcon.addEventListener('click', repeat);
@@ -44,7 +44,7 @@ $leftIcon.addEventListener('click', function (e) {
   $currentImage.setAttribute('src', images[start]);
   iconChange();
   clearInterval(intervalID);
-  intervalID = setInterval(repeat, 1000);
+  intervalID = setInterval(repeat, 3000);
 });
 
 function iconChange() {
