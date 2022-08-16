@@ -1,0 +1,54 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-fourth {
+  width: 25%;
+}
+
+.column-half {
+  width: 50%;
+}
+
+.images {
+  width: 100%;
+}
+
+.centered {
+  align-items: center;
+  text-align: center;
+}
+
+.fa-solid {
+  font-size: 3rem;
+}
+
+i:active {
+  transform: translateY(0.25rem);
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.fa-circle {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.fa-circle:active {
+  color: black;
+}
