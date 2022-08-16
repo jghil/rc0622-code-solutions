@@ -1,0 +1,500 @@
+   84  git push origin javascript-operations-and-expressions
+   85  git switch main
+   86  git branch javascript-operations-and-expressions
+   87  git branch switch javascript-operations-and-expressions
+   88  git checkout javascript-operations-and-expressions
+   89  git branch -m <javascript-operators-and-expressions>
+   90  git branch -m javascript-operators-and-expressions
+   91  git push origin -u javascript-operators-and-expressions
+   92  git push origin --delete javascript-operations-and-expressions
+   93  git switch main
+   94  git pull origin main
+   95  git branch javascript-objects
+   96  git switch javascript-objects
+   97  git add javascript-objects
+   98  git commit -m "javascript-objects - Jay Ghil"
+   99  git push origin javascript-objects
+  100  git switch main
+  101  git pull origin main
+  102  git branch javascript-arrays
+  103  git switch javascript-arrays
+  104  git add javascript-arrays
+  105  git commit -m "javascript-arrays - Jay Ghil"
+  106  git push origin javascript-arrays
+  107  git switch main
+  108  git pull origin main
+  109  git branch javascript-data-model
+  110  git switch javascript-data-model
+  111  git add javascript-data-model
+  112  git commit -m "javascript-data-model - Jay Ghil"
+  113  git push origin javascript-data-model
+  114  git add javascript-data-model
+  115  git commit -m "javascript-data-model - Jay Ghil"
+  116  git push origin javascript-data-model
+  117  git switch main
+  118  git pull origin main
+  119  git branch javascript-functions
+  120  git switch javascript-functions
+  121  git add javascript-functions
+  122  git commit -m "javascript-functions - Jay Ghil"
+  123  git push origin javscript-functions
+  124  git push origin javascript-functions
+  125  git switch main
+  126  git switch javascript-functions
+  127  git add javascript-functions
+  128  git commit -m "fixed function to return number, not string"
+  129  git push origin javascript-functions
+  130  git switch main
+  131  git pull origin main
+  132  git branch javascript-functions-practice
+  133  git switch javascript-functions-practice
+  134  git add javascript-functions-practice
+  135  git commit -m "javascript-functions-practice - Jay Ghil" 
+  136  git push origin javascript-functions-practice
+  137  git switch main
+  138  git pull origin main
+  139  git branch javascript-methods
+  140  git switch javascript-methods
+  141  git add javascript-methods
+  142  git commit -m "javascript-methods - Jay Ghil"
+  143  git push origin javascript-methods
+  144  git switch main
+  145  git pull origin main
+  146  git branch javascript-if
+  147  git switch javascript-if
+  148  git add javascript-if
+  149  git commit -m "javascript-if - Jay Ghil"
+  150  git push origin javascript-if
+  151  git switch main
+  152  git pull origin main
+  153  git branch javascript-loops
+  154  git switch javascript-loops
+  155  git add javascript-loops
+  156  git commit -m "javascript-loops - Jay Ghil"
+  157  git push origin javascript-loops
+  158  git switch main
+  159  git pull origin main
+  160  git branch javascript-loops-practice
+  161  git switch javascript-loops-practice
+  162  git add javascript-loops-practice
+  163  git commit -m "javascript-loops-practice - Jay Ghil"
+  164  git push origin javascript-loops-practice
+  165  git switch main
+  166  git pull origin main
+  167  git branch array-manipulation-1
+  168  git switch array-manipulation-1
+  169  git add array-manipulation-1
+  170  git commit -m "array-manipulation-1 - Jay Ghil"
+  171  git push origin array-manipulation-1
+  172  git switch main
+  173  git branch string-manipulation-1
+  174  git switch string-manipulation-1
+  175  git switch main
+  176  git pull origin main
+  177  git switch string-manipulation-1
+  178  git add string-manipulation-1
+  179  git commit -m "string-mainpulation-1 - Jay Ghil"
+  180  git push origin string-manipulation-1
+  181  git switch main
+  182  git pull origin main
+  183  git branch object-manipulation-1
+  184  git switch objecct-manipulation-1
+  185  git switch object-manipulation-1
+  186  git add object-manipulation-1
+  187  git commit -m "object-manipulation-1 - Jay Ghil" 
+  188  git push origin object-manipulation-1
+  189  git switch main
+  190  git pull origin main
+  191  git branch dom-querying
+  192  git switch dom-querying
+  193  git add dom-querying
+  194  git commit -m "dom-querying - Jay Ghil"
+  195  git push origin dom-querying
+  196  git switch main
+  197  git pull origin main
+  198  git pull origin main
+  199  git branch dom-events
+  200  git switch dom-events
+  201  git main switch
+  202  git switch main
+  203  git pull origin main
+  204  git switch dom-events
+  205  git add dom-events
+  206  git commit -m "dom-events - Jay Ghil"
+  207  git push origin dom-events
+  208  git switch main
+  209  git pull origin main
+  210  git branch dom-manipulation
+  211  git switch dom-manipulation
+  212  git add dom-manipulation
+  213  git commit -m "dom-manipulation - Jay Ghil"
+  214  git push origin dom-manipulation
+  215  git branch css-transforms
+  216  git switch css-transforms
+  217  git add css-transforms
+  218  git commit -m "css-transforms - Jay Ghil"
+  219  git push origin css-transforms
+  220  git branch array-manipulation-2
+  221  git switch array-manipulation-2
+  222  git switch main
+  223  git switch array-manipulation-2
+  224  git switch main
+  225  git branch javascript-light-bulb
+  226  git switch javascript-light-bulb
+  227  git switch main
+  228  git pull origin main
+  229  git switch javascript-light-bulb
+  230  git pull origin main
+  231  git add javascript-light-bulb
+  232  git commit -m "javascript-light-bulb - Jay Ghil"
+  233  git push origin javascript-light-bulb
+  234  git pull origin main
+  235  git switch main
+  236  git pull origin main
+  237  git branch javascript-modal
+  238  git switch javascript-modal
+  239  git branch css-transitions
+  240  git switch css-transitions
+  241  git add css-transitions
+  242  git commit -m "css-transitions - Jay Ghil"
+  243  git push origin css-transitions
+  244  git switch main
+  245  git switch javascript-modal
+  246  git branch javascript-forms
+  247  git switch javascript-forms
+  248  git add javascript-forms
+  249  git commit -m "javascript-forms - Jay Ghil"
+  250  git push origin javascript-forms
+  251  git switch main
+  252  git pull origin main
+  253  git branch dom-creation
+  254  git switch dom-creation
+  255  git add dom-creation
+  256  git commit -m "dom-creation - Jay Ghil"
+  257  git push origin dom-creation
+  258  git switch main
+  259  git pull origin main
+  260  git pull origin main
+  261  git branch dom-event-delegation
+  262  git switch dom-event-delegation
+  263  git add dom-event-delegation
+  264  git commit -m "dom-event-delegation - Jay Ghil"
+  265  git add dom-event-delegation
+  266  git commit -m "dom-event-delegation"
+  267  git push origin dom-event-delegation
+  268  git add dom-event-delegation
+  269  git commit -m "removed the argument in the remove method"
+  270  git push origin dom-event-delegation
+  271  git switch main
+  272  git pull origin main
+  273  git switch array-manipulation-2
+  274  git switch javascript-modal
+  275  git switch main
+  276  git pull origin main
+  277  git branch javascript-view-swapping
+  278  git switch javascript-view-swapping
+  279  git add javascript-view-swapping
+  280  git commit -m "javascript-view-swapping"
+  281  git push origin javascript-view-swapping
+  282  git switch main
+  283  git pull origin main
+  284  git pull origin main
+  285  git branch css-media-queries
+  286  git switch css-media-queries
+  287  git add css-media-queries
+  288  git commit -m "css-media-queries - Jay Ghil"
+  289  git push origin css-media-queries
+  290  git switch main
+  291  git switch css-media-queries
+  292  git switch main 
+  293  git pull origin main
+  294  git branch --list
+  295  git switch css-responsive-layout
+  296  git branch css-responsive-layout
+  297  git switch css-responsive-layout
+  298  git add css-repsonsive-layout
+  299  git add css-responsive-layout
+  300  git commit -m "css-responsive-layout - Jay Ghil"
+  301  git push origin css-responsive-layout
+  302  git switch main
+  303  git pull origin main
+  304  git branch javascript-and-json
+  305  git switch javascript-and-json
+  306  git add javascript-and-json
+  307  git commit -m "javascript-and-json - Jay Ghil"
+  308  git push origin javascript-and-json
+  309  git switch main
+  310  git pull origin main
+  311  git branch javascript-local-storage
+  312  git swtich javascript-local-storage
+  313  git switch javascript-local-storage
+  314  git add javascript-local-storage
+  315  git commit -m "javascript-local-storage - Jay Ghil"
+  316  git push origin javascript-local-storage
+  317  git switch main
+  318  git pull origin main
+  319  git switch javascript-modal
+  320  git switch main
+  321  git pull origin main
+  322  git switch javascript-modal
+  323  git switch main
+  324  git switch javascript-modal
+  325  git add javascript-modal
+  326  git commit -m "javascript-modal - Jay Ghil"
+  327  git push origin javascript-modal
+  328  git switch main
+  329  git pull origin main
+  330  git pull origin main
+  331  git branch javascript-custom-methods
+  332  git switch javascript-custom-methods 
+  333  git add .
+  334  git status
+  335  git restore --staged .
+  336  git status
+  337  git add javascript-custom-methods
+  338  git status
+  339  git commit -m "javascript-custom-methods - Jay Ghil"
+  340  git push origin javascript-custom-methods
+  341  git switch main
+  342  git pull origin main
+  343  git branch javascript-this
+  344  git switch javascript-this 
+  345  git add javascript-this
+  346  git commit -m "javascript-this - Jay Ghil"
+  347  git push origin javascript-this 
+  348  git switch main
+  349  git pull origin mian
+  350  git pull origin main
+  351  git branch javascript-prototypes
+  352  git switch javascript-pro
+  353  git switch javascript-prototypes 
+  354  git add javascript-prototypes
+  355  git commit -m "javascript-prototypes - Jay Ghil"
+  356  git push origin javascript-prototypes
+  357  git switch main
+  358  git pull origin main
+  359  git branch javascript-constructorsz
+  360  git branch javascript-constructors
+  361  git switch javascript-constructors
+  362  git add javascript-constructors
+  363  git commit -m "javascript-constructors - Jay Ghil"
+  364  git push origin javascript-constructors
+  365  git switch main
+  366  git pull origin main
+  367  git branch javascript-bank
+  368  git switch javascript-bank
+  369  git branch javascript-timers
+  370  git switch javascript-timers 
+  371  git status
+  372  git add javascript-timers
+  373  git commit -m "javascript-timers - Jay Ghil"
+  374  git push origin javascript-timers
+  375  git branch javascript-carousel
+  376  git switch javascript-carousel 
+  377  git switch javascript-timers
+  378  git add javascript-timers
+  379  git commit -m "added clearInterval to the last tick"
+  380  git push origin javascript-timers
+  381  git switch main
+  382  git pull origin main
+  383  git switch javascript-carousels
+  384  git switch javascript-carousel 
+  385  git switch javascript-bank
+  386  git add javascript-bank
+  387  git commit -m "javascript-bank - Jay Ghil"
+  388  git push origin javascript-bank
+  389  git switch main
+  390  git branch css-four-column-layout
+  391  git switch css-four-column-layout 
+  392  git status
+  393  git add css-four-column-layout/
+  394  git commit -m "css-four-column-layout - Jay Ghil"
+  395  git push origin css-four-column-layout 
+  396  git switch css-transitions
+  397  git status
+  398  git commit -m "css-transitions - Jay Ghil"
+  399  git add css-transitions
+  400  git commit -m "css-transitions - Jay Ghil"
+  401  git push origin css-transitions
+  402  git status
+  403  git switch main
+  404  git pull origin main
+  405  git switch revert-43-css-transitions
+  406  git switch css-transitions
+  407  git commit -m "css-transitions - Jay GHil"
+  408  git push origin css-transitions
+  409  git switch main
+  410  git switch css-transitions
+  411  git add css-transitions
+  412  git commit -m css-transitions
+  413  git status
+  414  git add css-transitions
+  415  git commit -m "css-transitions - Jay Ghil"
+  416  git push origin css-transitions
+  417  git switch main
+  418  git branch practice- interview-problem
+  419  git branch practice-interview-problem
+  420  git switch practice-interview-problem 
+  421  git switch main
+  422  git branch http-messages
+  423  git switch http-messages 
+  424  choco install httpie
+  425  http http://www.example.com
+  426  http --verbose http://www.example.com
+  427  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+  428  http --body GET https://example.com > http-messages/index.html
+  429  git status
+  430  git add http-messages
+  431  git commit -m "http-messages - Jay Ghil"
+  432  git push origin http-messages
+  433  git switch main
+  434  git pull origin main
+  435  git branch javascript-ajax
+  436  git switch javascript-ajax
+  437  git add javascript-ajax
+  438  git commit -m "javascript-ajax - Jay Ghil"
+  439  git add javascript-ajax
+  440  git commit -m "javascript-ajax - Jay Ghil"
+  441  git push origin javascript-ajax
+  442  git switch main
+  443  git pull origin main
+  444  git pull origin main
+  445  git switch javascript-carousel
+  446  git switch http-messages
+  447  git add http-messages
+  448  git commit -m "http-messages - Jay Ghil"
+  449  git push origin http-messages
+  450  git switch javascript-carousel
+  451  git switch main
+  452  git branch practice-api
+  453  git switch practice-api
+  454  https://api.jikan.moe/v4/manga/1/full
+  455  http https://api.jikan.moe/v4/manga/' + number + '/full
+  456  http https://api.jikan.moe/v4/manga/1/full
+  457  http https://api.jikan.moe/v4/random/manga
+  458  git switch main
+  459  git branch es6-const-let
+  460  git switch es6-const-let
+  461  git status
+  462  git add es6-const-let/
+  463  git status
+  464  git commit -m "completed es6-const-let - Jay Ghil"
+  465  git push origin es6-const-let 
+  466  git switch main
+  467  git pull origin main
+  468  git branch es6-template-literals
+  469  git switch es6-template-literals 
+  470  git add es6-template-literals/
+  471  git commit -m "completed es6-template-literals - Jay Ghil"
+  472  git push origin es6-template-literals 
+  473  git switch main
+  474  git pull origin main
+  475  git status
+  476  git branch es6-destructuring
+  477  git switch es6-destructuring 
+  478  git add es6-destructuring/
+  479  git commit -m "completed es6-destructuring - Jay Ghil"
+  480  git push origin es6-destructuring 
+  481  git switch javascript-carousel 
+  482  git status
+  483  git add javascript-carous
+  484  git add javascript-carousel/
+  485  git commit -m "completed javascript-carousel - Jay Ghil"
+  486  git push origin javascript-carousel 
+  487  git add javascript-carousel
+  488  git commit -m "changed times to 3 sec instead of 1 sec"
+  489  git push origin javascript-carousel 
+  490  git switch main
+  491  git switch es6-destructuring 
+  492  git switch main
+  493  git branch es6-arrow-functions
+  494  git switch es6-arrow-functions 
+  495  git switch main
+  496  git pull origin main
+  497  git switch es6-arrow-functions 
+  498  git switch main
+  499  git pull origin main
+  500  git switch es6-arrow-functions 
+  501  git status
+  502  git add es6-arrow-functions/
+  503  git commit -m "completed es6-arrow-functions"
+  504  git push origin es6-arrow-functions 
+  505  git add es6-arrow-functions/
+  506  git switch main
+  507  git pull origin main
+  508  git status
+  509  git status
+  510  git branch command-line-basics
+  511  git switch command-line-basics 
+  512  cd name-of-exercise
+  513  cd command-line-basics/
+  514  man man
+  515  man cat
+  516  cat laziness.txt
+  517  cat impatience.txt
+  518  cat hubris.txt
+  519  cat laziness.txt impatience.txt hubris.txt
+  520  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  521  cat three-virtues.txt
+  522  man ls
+  523  man man
+  524  man ls
+  525  ls
+  526  ls -a
+  527  ls -F
+  528  ls lfz-staff/
+  529  ls -a lfz-staff/
+  530  ls -F lfz-staff/
+  531  man ls
+  532  ls -aF lfz-staff > lfz-staff/contents.txt
+  533  cat lfz-staff/contents.txt
+  534  man pwd
+  535  pwd
+  536  pwd > i-was-here.txt
+  537  ls
+  538  cat i-was-here.txt
+  539  man echo
+  540  echo 'Hello, World!'
+  541  echo 'Hello World!' > hello.txt
+  542  ls
+  543  cat hello.txt
+  544  man touch
+  545  touch tag-youre-it
+  546  touch snoot/boop.txt
+  547  ls snoot/
+  548  man mkdir
+  549  man mkdir
+  550  mkdir parent
+  551  ls
+  552  ls parent
+  553  mkdir -p parent/child/grandchild
+  554  touch .gitkeep parent/child/grandchild
+  555  ls
+  556  ls parent
+  557  ls child
+  558  ls parent/child/grandchild
+  559  ls -a parent/child/grandchild
+  560  ls -a parent
+  561  ls -a parent/child
+  562  ls -a parent/child/grandchild
+  563  touch parent/child/grandchild/.gitkeep
+  564  ls -a parent/child/grandchild
+  565  man mv
+  566  mv pokiemans pokemon
+  567  ls
+  568  man rm
+  569  ls lol.txt
+  570  cat lol.txt
+  571  rm lol.txt
+  572  ls
+  573  rm -r kill-me/
+  574  ls
+  575  man cp
+  576  man cp
+  577  cp and-then.txt no-and-then.txt
+  578  ls
+  579  cat and-then.txt
+  580  cat no-and-then.txt
+  581  man history
+  582  history
+  583  history > command-history.txt
