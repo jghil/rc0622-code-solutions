@@ -18,7 +18,7 @@ app.use('/api/grades', expressJSON);
 app.post('/api/grades', (req, res) => {
   const newGrade = req.body;
   newGrade.id = nextId;
-  nextId++;
+  nextId += 1;
   grades[nextId] = newGrade;
   res.status(201).send(newGrade);
 });
