@@ -15,9 +15,19 @@ class HotButton extends React.Component {
     const clicked = this.state.clickCount;
     let button = '';
     if (clicked < 3) {
-      button = 'purple';
+      button = 'button';
     } else if (clicked < 6) {
-      button = 'light-purple';
+      button = 'button purple';
+    } else if (clicked < 9) {
+      button = 'button light-purple';
+    } else if (clicked < 12) {
+      button = 'button pink';
+    } else if (clicked < 15) {
+      button = 'button orange';
+    } else if (clicked < 18) {
+      button = 'button yellow';
+    } else if (clicked < 21) {
+      button = 'button white';
     } else {
       button = 'button';
     }
