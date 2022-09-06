@@ -1,0 +1,41 @@
+.button {
+  width: 130px;
+  background-color: aquamarine;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: black 3px 3px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button:active {
+  transform: translateY(2px);
+}
+
+.purple {
+  background-color: rgb(53 28 117);
+}
+
+.light-purple {
+  background-color: rgb(103 78 167);
+}
+
+.pink {
+  background-color: rgb(224 102 102);
+}
+
+.orange {
+  background-color: rgb(246 178 107);
+  color: black;
+}
+
+.yellow {
+  background-color: rgb(255 255 0);
+  color: black;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
