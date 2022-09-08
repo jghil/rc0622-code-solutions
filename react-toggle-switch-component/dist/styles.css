@@ -1,0 +1,49 @@
+.off-container {
+  height: 2rem;
+  width: 4rem;
+  border: 3px solid black;
+  border-radius: 35%;
+  position: absolute;
+  background-color: gainsboro;
+  transition: 0.2s ease-in;
+}
+
+.off-switch {
+  height: 2rem;
+  width: 2rem;
+  border: 3px solid black;
+  border-radius: 100%;
+  position: relative;
+  right: 5px;
+  bottom: 3px;
+  background-color: white;
+}
+
+.on-switch {
+  height: 2rem;
+  width: 2rem;
+  border: 3px solid black;
+  border-radius: 100%;
+  position: relative;
+  left: 33px;
+  bottom: 3px;
+  background-color: white;
+}
+
+.on-container {
+  height: 2rem;
+  width: 4rem;
+  border: 3px solid black;
+  border-radius: 35%;
+  position: absolute;
+  background-color: rgb(106 168 79);
+  transition: 0.5s ease-in;
+}
+
+.right {
+  text-align: end;
+}
+
+.left {
+  text-align: start;
+}
