@@ -9,12 +9,9 @@ app.get('/api/notes', (req, res) => {
   for (const property in dataJSON.notes) {
     newNotes.push(dataJSON.notes[property]);
   }
-  if (newNotes.length !== 0) {
-    res.status(200).json(newNotes);
-  } else {
-    res.json([newNotes]);
-  }
-});
+  res.json(newNotes);
+}
+);
 
 app.get('/api/notes/:id', (req, res) => {
   const id = Number(req.params.id);
@@ -29,7 +26,7 @@ app.get('/api/notes/:id', (req, res) => {
 
 app.post('/api/notes', (req, res) => {
   const body = req.body;
-  if (body === undefined) {
+  if (body.content === undefined) {
     res.status(400).json({ error: 'content is a required field' });
   } else {
     // const note = {
@@ -51,7 +48,7 @@ app.post('/api/notes', (req, res) => {
   }
 });
 
-app.delete('/api/grades/:id', (req, res) => {
+app.delete('/api/notes/:id', (req, res) => {
   const id = Number(req.params.id);
   if (!Number.isInteger(id) || id <= 0) {
     res.status(400).json({ error: 'id must be a positive integer' });
@@ -73,23 +70,23 @@ app.delete('/api/grades/:id', (req, res) => {
 
 app.put('/api/notes/:id', (req, res) => {
   const id = Number(req.params.id);
-  const body = req.body;
+  const update = req.body;
   if (!Number.isInteger(id) || id <= 0) {
     res.status(400).json({ error: 'id must be a positive integer!' });
-  } else if (body === undefined) {
+  } else if (update.content === undefined) {
     res.status(400).json({ error: 'content is a required field' });
   } else if (dataJSON.notes[id] === undefined) {
     res.status(404).json({ error: 'cannot find note with id: ' + id });
   } else {
-    body.id = id;
-    dataJSON.body[id] = body;
+    update.id = id;
+    dataJSON.notes[id] = update;
     const data = JSON.stringify(dataJSON, null, 2);
     fs.writeFile('./data.json', data, err => {
       if (err) {
         console.error(err);
         res.status(500).json({ error: 'an unexpected error occurred' });
       } else {
-        res.sendStatus(200).json(body);
+        res.status(200).json(update);
       }
     });
   }
