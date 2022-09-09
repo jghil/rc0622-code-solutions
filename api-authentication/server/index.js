@@ -70,7 +70,7 @@ select "userId",
             } else {
               const payload = {
                 userId: newUser.userId,
-                username: newUser.username
+                username
               };
               const newToken = jwt.sign(payload, process.env.TOKEN_SECRET);
               res.status(200).json({ newToken, payload });
